@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <script src="app.js"></script>
+        <title>Core Js</title>
+        <style>
+        #root {
+            
+            box-sizing: border-box;
+            width: 600px;
+            height: 300px;
+        }
+
+        #root > div {
+            width: 100%;
+            height: 100%;
+
+            
+        }
+
+        #root > div:nth-child(even) {
+            background-color: red;
+        }
+
+        #root > div:nth-child(odd) {
+            background-color:green;
+        }
+
+        .nd {
+            display: none;
+        }
+
+        </style>
+    </head>
+    <body>
+        <div id="root">
+            <div class="item">A</div>
+            <div class="item nd">B</div>
+            <div class="item nd">C</div>
+            <div class="item nd">D</div>
+        </div>
+    </body>
+</html>

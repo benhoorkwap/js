@@ -1,0 +1,66 @@
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.login{
+    background-color: rgba(169, 169, 169, 0.2);
+    width: 30%;
+    padding: 3em;
+    border-radius: 1em;
+    margin: auto;
+
+}
+
+.form-title {
+    margin: 0;
+    padding: 0.5em 0;
+    border-bottom: 1px solid #a9a9a9;
+    text-align: center;
+    margin-bottom: 2em;
+
+}
+
+
+p {
+   
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+label {
+    padding: 0.25em 0;
+}
+
+.form-input {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 0.5em;
+    border-radius: 0.25em;
+    border: 1.8px solid #222;
+    outline: none;
+    font-family: inherit;
+
+    
+
+}
+
+.form-button {
+    margin-top: 1em;
+    flex: 1;
+    padding: 1em 0;
+    border-radius: 0.5em;
+
+    border: none;
+    outline: none;
+    background-color: rgba(0, 118, 255, 0.8);
+    font-weight: bolder;
+    color: white;
+    font-size: 1em;
+}
+
+
+.form-input:focus {
+    border-color: #007fff;
+}
